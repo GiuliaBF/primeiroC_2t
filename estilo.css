@@ -1,29 +1,30 @@
 body {
-  background: lightblue;
+  margin: 0;
+  padding: 0;
 }
 h1 {
   text-align: center;
 }
-.caixa {
-  position: relative;
-  background: blue;
-  width: 200px;
-  height: 200px;
-  color: aliceblue;
-  left: 50%;
+.caixa1 {
+   position: relative;
+   background: #7298ff;
+   width: 200px;
+   height: 200px;
+   color: #d4ffca;
+   left: 50%;
 }
 .menuPrincipal {
   position: absolute;
-  background: rgb(158, 104, 155);
+  background: #ff0080;
   width: 100%;
   height: 45px;
   top: 0pt;
   left: 0;
 }
-niv ul {
+nav ul {  
   list-style-type: none;
   margin: 0;
-  padding: 0; 
+  padding: 0;
   overflow: 0;
 }
 li {
@@ -31,13 +32,49 @@ li {
 }
 li a {
   display: block;
-  color: cornflowerblue;
-  text-align: ceenter;
+  color:rgb(231, 231, 176);
+  text-align: center;
   padding: 14px 16px;
-text-decoration: none;
-font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
 }
-li a :hover{
-  background: palegreen;
-  color: darkturquoise;
+li a:hover{
+  background:#90ff90;
+  color: rgb(118, 200, 255);
+} 
+.imgEstudo {
+    position: absolute;
+    width: 90%;
+    height: 120px;
+    background: #acd3ff;
+    top: 45px;
+    left: 0;
+    margin: 20px;
+    border-color: rgb(254, 255, 173);
+    border-width: 20px;
+    border-style: solid;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+#aguia {
+   width: 20%;
+}
+.rodape {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 50px;
+   background: #ac25fa;
+   color:#2cffff;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   font-size: 26px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.conteudo {
+  position: absolute;
+  top: 45px;
 }
